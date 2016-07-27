@@ -5,7 +5,7 @@
 
 using namespace std;
 
-ofstream ansFile;
+ofstream ansFile; //Have to define globally to be able to use inside display function and main()
 
 void displayAnswer(vector<int> answer, int tcase){
 	ansFile<<"Case #"<<(tcase+1)<<": ";
