@@ -50,7 +50,7 @@ int main(int argc, char** argv){
             count++;
             continue;
         }
-        else{ //Disqualify the current column (Position) as its alread taken
+        else{ //Disqualify the current column (Position) as its already taken
             arr[r][c] = -1;
             continue;
         }
@@ -65,7 +65,7 @@ int main(int argc, char** argv){
     //Write to file
     ofstream write;
     write.open("team.out", ios::out);
-    write<<setprecision(9)<<value;
+    write<<setprecision(30)<<value;
     
     return 0;
 }
