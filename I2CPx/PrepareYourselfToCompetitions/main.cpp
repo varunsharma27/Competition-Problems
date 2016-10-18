@@ -45,6 +45,7 @@ int main(int argc, char **argv)
             answer[i] = 'X';
         }
     }
+    input.close();
     //Check for Practical
     if (!checkExist(answer, n, 'P')){
         int loc, FLAG = 0;
